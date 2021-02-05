@@ -1,0 +1,155 @@
+The Bitcoin blockchain is created.
+Block reward is 5000000000 satoshis per block paid to the block's miner.
+There will be (approx.) 600000 miliseconds between two blocks
+Block reward halves every 210K blocks (takes around 4 years)
+The Peer-to-Peer network will be fake; we will simulate it.
+The blockchain will end once the block 10 is mined.
+MemPool contained 68 transactions.
+The coinbase transaction is created by the miner, and added to the block.
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 69
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 35
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 18
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 9
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 5
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 3
+Merkle Tree, Bottom Up, Level: 6, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 7, number of hashes: 1
+Top hash is: 6dc28a0829c36bf777e582e1965053a01df1b9152f0e876f512de6ae5ba691ec
+Nonce: 206250 satisfies the difficulty.899052531879746489425757755463867034474809029967417079636450381009377600 < 999999999999999999999999999999999999999999999999999999999999999999999999
+
+Block 1 is mined. ebfeeea64f5a480ea3946a043937cfe671db58e6c56162fa78df7cfaa7d42927->00008243b63934bd87fd0e7df28de8f5789b80892914b312fd0be6e9d6b5d940
+MemPool contained 23 transactions.
+The coinbase transaction is created by the miner, and added to the block.
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 24
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 12
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 6
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 3
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 1
+Top hash is: f0128a8d828651729a0bedfa82cb89917b79f06e86e2d23fc10aa87ce9dfcb1c
+Nonce: 164907 satisfies the difficulty.506620941057642696110838596425081360621653843685422897878516967250278831 < 999999999999999999999999999999999999999999999999999999999999999999999999
+
+Block 2 is mined. 00008243b63934bd87fd0e7df28de8f5789b80892914b312fd0be6e9d6b5d940->000049679d779c9c2567b3708d6b2c0c0cdbb882d1540bb4e5792560783f39af
+MemPool contained 20 transactions.
+The coinbase transaction is created by the miner, and added to the block.
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 21
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 11
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 6
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 3
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 1
+Top hash is: 1a689b53effa5ed78c0652ed37f5371cbe22ffae70e4992c8e0b4bfe6a41d223
+Nonce: 63823 satisfies the difficulty.869251602215262322382174860996759218883940822530665088911773847553366945 < 999999999999999999999999999999999999999999999999999999999999999999999999
+
+Block 3 is mined. 000049679d779c9c2567b3708d6b2c0c0cdbb882d1540bb4e5792560783f39af->00007df2557a1915d81404a71d5a3e9a266f91896d4142c173749685e4e8dba1
+MemPool contained 54 transactions.
+The coinbase transaction is created by the miner, and added to the block.
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 55
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 28
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 14
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 7
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 4
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 6, number of hashes: 1
+Top hash is: 1e1468b82abbefb25b6bbc4109c4fa34596e24f0ae692d82b9dab054dac4f6b5
+Nonce: 32994 satisfies the difficulty.660203684700956820819322306992596305121062105076397379604047121933799878 < 999999999999999999999999999999999999999999999999999999999999999999999999
+
+Block 4 is mined. 00007df2557a1915d81404a71d5a3e9a266f91896d4142c173749685e4e8dba1->00005fa850d0676d6cb62f0bb13333203b18ce2a81778e155228b387b5a211c6
+MemPool contained 71 transactions.
+The coinbase transaction is created by the miner, and added to the block.
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 72
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 36
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 18
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 9
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 5
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 3
+Merkle Tree, Bottom Up, Level: 6, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 7, number of hashes: 1
+Top hash is: 8fc610f90280e25aadced6727f4a149e33d98a230291636a3b4d56a113f51287
+Nonce: 2817 satisfies the difficulty.489248384665814592596790975382166025828197919755287005516241944109497654 < 999999999999999999999999999999999999999999999999999999999999999999999999
+
+Block 5 is mined. 00005fa850d0676d6cb62f0bb13333203b18ce2a81778e155228b387b5a211c6->000046e33b2e5c6cc5d803356c982af113e09015491ec9f12437ee48e621bd36
+MemPool contained 81 transactions.
+The coinbase transaction is created by the miner, and added to the block.
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 82
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 41
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 21
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 11
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 6
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 3
+Merkle Tree, Bottom Up, Level: 6, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 7, number of hashes: 1
+Top hash is: 2889bfef37002745e88802cc1083df2c6ace840b44e4b14520addcb66a22f159
+Nonce: 20122 satisfies the difficulty.752423178708222413934205665072921108534077935419955260357149733336096349 < 999999999999999999999999999999999999999999999999999999999999999999999999
+
+Block 6 is mined. 000046e33b2e5c6cc5d803356c982af113e09015491ec9f12437ee48e621bd36->00006d04ed4453cfac09167a62c82947a23c8ada178fb1ce9978f458e68f9e5d
+MemPool contained 33 transactions.
+The coinbase transaction is created by the miner, and added to the block.
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 34
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 17
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 9
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 5
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 3
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 6, number of hashes: 1
+Top hash is: af1ad351e4fd3c8d5b4ae8b1712d94617e34df637d4c072a45c03d0448ff010a
+Nonce: 58005 satisfies the difficulty.934320695654218091642261523341957142414390090440593940083290932724174179 < 999999999999999999999999999999999999999999999999999999999999999999999999
+
+Block 7 is mined. 00006d04ed4453cfac09167a62c82947a23c8ada178fb1ce9978f458e68f9e5d->0000875fe1763bce0f51ef4c77d56bfa8e71647ca0c9d80bc89871ec95d90d63
+MemPool contained 46 transactions.
+The coinbase transaction is created by the miner, and added to the block.
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 47
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 24
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 12
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 6
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 3
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 6, number of hashes: 1
+Top hash is: 405aeec4423425c7519c3762c1ccd25e3c0fea549fd14bc42f6fb409eca91621
+Nonce: 23064 satisfies the difficulty.849096746082678401276222643269063190464920048311441110816120825171126824 < 999999999999999999999999999999999999999999999999999999999999999999999999
+
+Block 8 is mined. 0000875fe1763bce0f51ef4c77d56bfa8e71647ca0c9d80bc89871ec95d90d63->00007b06bfacd57811cf7f39f5a71707cb74904d0961e8c957081c0f8bb7aa28
+MemPool contained 37 transactions.
+The coinbase transaction is created by the miner, and added to the block.
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 38
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 19
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 10
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 5
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 3
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 6, number of hashes: 1
+Top hash is: e5eee71bfbcb54e6eaeafdf78348da02b791060ca02b0e645ead9d96fb7cc19f
+Nonce: 106199 satisfies the difficulty.391794616411318444711722319225844181303999487612051683312626793212348102 < 999999999999999999999999999999999999999999999999999999999999999999999999
+
+Block 9 is mined. 00007b06bfacd57811cf7f39f5a71707cb74904d0961e8c957081c0f8bb7aa28->000038c47852932355d0e400af50db4fddbf48952ba640388a1a2e5c6a5d06c6
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 69
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 35
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 18
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 9
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 5
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 3
+Merkle Tree, Bottom Up, Level: 6, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 7, number of hashes: 1
+Top hash is: 6dc28a0829c36bf777e582e1965053a01df1b9152f0e876f512de6ae5ba691ec
+00008243b63934bd87fd0e7df28de8f5789b80892914b312fd0be6e9d6b5d940 206250 00008243b63934bd87fd0e7df28de8f5789b80892914b312fd0be6e9d6b5d940
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 24
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 12
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 6
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 3
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 1
+Top hash is: f0128a8d828651729a0bedfa82cb89917b79f06e86e2d23fc10aa87ce9dfcb1c
+000049679d779c9c2567b3708d6b2c0c0cdbb882d1540bb4e5792560783f39af 164907 000049679d779c9c2567b3708d6b2c0c0cdbb882d1540bb4e5792560783f39af
+Merkle Tree, Bottom Up, Level: 0, number of hashes: 21
+Merkle Tree, Bottom Up, Level: 1, number of hashes: 11
+Merkle Tree, Bottom Up, Level: 2, number of hashes: 6
+Merkle Tree, Bottom Up, Level: 3, number of hashes: 3
+Merkle Tree, Bottom Up, Level: 4, number of hashes: 2
+Merkle Tree, Bottom Up, Level: 5, number of hashes: 1
+Top hash is: 421270b007ba293d25b91b6997fbbd53c440a7e22914ab5dfe88d079e2351050
+00007df2557a1915d81404a71d5a3e9a266f91896d4142c173749685e4e8dba1 63823 28bc4b396eca468eeffcc783953f5de1856de767219237685dec576b7f63f915
+Blockchain has faulty data at block 3
+Block 3 was chosen to be corrupted
+The code found the corruption:true
+
+Process finished with exit code 0
