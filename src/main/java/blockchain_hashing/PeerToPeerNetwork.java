@@ -1,3 +1,4 @@
+package blockchain_hashing;
 /**
  * COMP 2140   		SECTION A01
  * INSTRUCTOR   	Cuneyt Akcora
@@ -27,7 +28,7 @@ public class PeerToPeerNetwork {
         for(int i=0;i<numOfTx;i++){
             String fromAddress = generateRandomAddress();
             String toAddress = generateRandomAddress();
-            BigInteger amount = BigInteger.valueOf(randomAmount.nextInt(bound)* A5MahmudSaif.SATOSHI);
+            BigInteger amount = BigInteger.valueOf(randomAmount.nextInt(bound)* BLOCKCHAIN.SATOSHI);
             Transaction tx = new Transaction(fromAddress,toAddress,amount);
             txList.add(tx);
         }

@@ -1,3 +1,5 @@
+package blockchain_hashing;
+
 /**
  * COMP 2140   		SECTION A01
  * INSTRUCTOR   	Cuneyt Akcora

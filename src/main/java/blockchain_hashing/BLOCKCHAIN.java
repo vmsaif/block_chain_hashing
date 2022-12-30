@@ -1,4 +1,4 @@
-
+package blockchain_hashing;
 /**
  * @author			Saif Mahmud
  * @version      	04/06/2020
@@ -12,7 +12,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class A5MahmudSaif {
+public class BLOCKCHAIN {
 	
 	    static private final int MINUTE = 60*1000;//in milliseconds
 	    static final long SATOSHI = 100000000;// satoshi is the subunit of bitcoins (like 100 cents in a  dollar)
@@ -23,11 +23,11 @@ public class A5MahmudSaif {
 	    static private String addressOfSatoshi = "16cou7Ht6WjTzuFyDBnht9hmvXytg6XdVT";
 	    static BigInteger difficulty;
 	    private ArrayList<Block>  blocks;
-	    static private final int diffFreq =2016;
-	    static  private final int numOfSimulatedBlocks =10;
+	    // static private final int diffFreq = 2016;
+	    static  private final int numOfSimulatedBlocks = 10;
 	
 	
-	    public A5MahmudSaif()  {
+	    public BLOCKCHAIN()  {
 	        blocks = new ArrayList<>();
 	        int maxPower =77;//a 256 bit number can have a max value around 10^77
 	        int initialOffset=5; //we want initial difficulty to be 10^5 only
@@ -38,7 +38,7 @@ public class A5MahmudSaif {
 	
 	    public static void main(String[] args) throws NoSuchAlgorithmException {
 	
-	        A5MahmudSaif bitcoin = new A5MahmudSaif();
+	        BLOCKCHAIN bitcoin = new BLOCKCHAIN();
 	        MessageDigest digest = MessageDigest.getInstance("SHA-256");
 	        System.out.println("The Bitcoin blockchain is created.");
 	        System.out.println("Block reward is "+blockReward+" satoshis per block paid to the block's miner.");
@@ -88,15 +88,6 @@ public class A5MahmudSaif {
 	                bitcoin.addBlock(b);
 	                prevBlock=b;
 	
-	                //optional: write code to update the difficulty level every (2016 blocks) 2 weeks.
-	                if(bitcoin.currentHeight%diffFreq==0){
-	                    // difficulty needs to be halved.
-	                    // https://en.bitcoin.it/wiki/Difficulty
-	                    //
-	                }
-	                //optional: write code to update block reward every (210K blocks) 4 years.
-	                //https://www.bitcoinblockhalf.com/
-	
 	            }
 	
 	        }
@@ -110,42 +101,11 @@ public class A5MahmudSaif {
 	        //end of the corruption code
 	
 	        //detecting the induced corruption
-	        int height= bitcoin.validate(digest);
+	        
 	        System.out.println("Block "+blockToCorrupt+ " was chosen to be corrupted");
-	        System.out.println("The code found the corruption:"+(height==blockToCorrupt));
+	        
 	    }
-	
-	    private int validate(MessageDigest digest) throws NoSuchAlgorithmException {
-	        //write your code here. Change the below code as you like
-	        //digest is used to compute the SHA256 hash
-	    	int height=-1;
-	        Block prev;
-	        Block curr;
-	        MerkleTree tree = new MerkleTree();
-	        ArrayList<Transaction> trans = new ArrayList<Transaction>();
-	        String topHash;
-	        
-	        for(int i = 1; i < this.blocks.size()-1; i++)
-	        {
-	        	curr = this.blocks.get(i);
-	        	topHash = tree.buildFrom(curr.getTransactions());
-	        	
-	        	if(curr.getBlockHash().equals(this.blocks.get(i).getBlockHash()))
-	        	{
-	        		
-	        		System.out.println("a: " + this.blocks.get(i-1).getBlockHash());
-	        		System.out.println("b: " + this.blocks.get(i).getBlockHash());
-	        		System.out.println("a: " + this.blocks.get(i+1).getBlockHash());
-	        	}
-	        	prev = curr;
-	        	
-	        }
-	        
-	        
-	
-	        return height;
-	    }
-	
+
 	    private Block getBlock(int blockToCorrupt) {
 	        return this.blocks.get(blockToCorrupt);
 	
