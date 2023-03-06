@@ -1,5 +1,7 @@
 # Blockchain Hashing
 
+[![Hits](https://hits.sh/github.com/vmsaif/block_chain_hashing.svg?label=Visits&color=100b75)](https://hits.sh/github.com/vmsaif/block_chain_hashing/)
+
 A Java program that implements a MerkleTree to be used in a blockchain.
 
 ## What I Learned
